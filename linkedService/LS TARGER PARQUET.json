@@ -1,0 +1,12 @@
+{
+	"name": "LS TARGER PARQUET",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlstargetlocation.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDJCMTFEMkEyLUIzOTYtNEM3NC05RTcwLUVBQjU0ODAwMjU5MV83ODUyZTg1Yi0xZWIzLTRjZTQtYTMzYi0yZThiNmM5Mzc1ODAiDQp9"
+		}
+	}
+}

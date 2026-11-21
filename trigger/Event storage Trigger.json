@@ -1,0 +1,17 @@
+{
+	"name": "Event storage Trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/sourcefilelocation/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/31fbec33-c54a-4f78-b1df-5374ae908483/resourceGroups/rg_Azurecourse_practice/providers/Microsoft.Storage/storageAccounts/adlssourcelocation",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

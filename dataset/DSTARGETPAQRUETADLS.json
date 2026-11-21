@@ -1,0 +1,20 @@
+{
+	"name": "DSTARGETPAQRUETADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS TARGER PARQUET",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "containertargetlocation"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

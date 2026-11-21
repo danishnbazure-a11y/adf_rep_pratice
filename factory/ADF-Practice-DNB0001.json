@@ -1,0 +1,16 @@
+{
+	"name": "ADF-Practice-DNB0001",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "21551d29-05bf-43ed-bec0-251f7b3ee4db",
+		"tenantId": "12a8d1dd-3066-4fcb-b4cb-1d22b01cf592"
+	}
+}
