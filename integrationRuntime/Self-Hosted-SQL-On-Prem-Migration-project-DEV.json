@@ -1,6 +1,9 @@
 {
 	"name": "Self-Hosted-SQL-On-Prem-Migration-project-DEV",
 	"properties": {
-		"type": "SelfHosted"
+		"type": "SelfHosted",
+		"typeProperties": {
+			"selfContainedInteractiveAuthoringEnabled": false
+		}
 	}
 }
